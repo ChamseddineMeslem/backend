@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 
-const app = express();
+const apfffp = express();
 app.use(cors());
 
 app.get('/api/message', (req, res) => {
