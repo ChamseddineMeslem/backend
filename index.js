@@ -4,7 +4,7 @@ const cors = require('cors');
 const apfffp = express();
 app.use(cors());
 
-app.get('/api/message', (req, res) => {
+app.get('/api/messssage', (req, res) => {
   res.json({ message: 'مرحبًا من الباك اند!' });
 });
 
